@@ -105,6 +105,9 @@ RUN wget -P /usr/local/bin/  https://raw.githubusercontent.com/jupyter/docker-st
     wget -P /usr/local/bin/  https://raw.githubusercontent.com/jupyter/docker-stacks/master/base-notebook/start-singleuser.sh && \
     wget -P /etc/jupyter/    https://raw.githubusercontent.com/jupyter/docker-stacks/master/base-notebook/jupyter_notebook_config.py
 
+
+#RUN wget -P /usr/local/bin/ https://raw.githubusercontent.com/Winowang/jupyter_images/master/run_jupyter.sh && \
+#    wget -P /etc/jupyter/ https://raw.githubusercontent.com/Winowang/jupyter_images/master/jupyter_notebook_config.py 
  
 #COPY start.sh /usr/local/bin/
 #COPY start-notebook.sh /usr/local/bin/
